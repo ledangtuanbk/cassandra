@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    postgres:
+        container_name: cassandra
+        restart: always
+        ports:
+            - '9042:9042'
+        image: 'ledangtuanbk/cassandra:4.0'
